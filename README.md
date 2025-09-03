@@ -94,14 +94,6 @@ hist = model.fit(
 
 ---
 
-## 🖼️ Sample Predictions  
-
-| Original Image | Ground Truth Mask | Predicted Mask | Overlay |
-|----------------|------------------|----------------|---------|
-| ![img](sample_image.png) | ![mask](ground_truth.png) | ![pred](predicted.png) | ![overlay](overlay.png) |
-
----
-
 ## 🧪 Testing  
 
 Evaluate the model on unseen test data:
@@ -116,11 +108,6 @@ model.evaluate(test_gen, steps=test_steps)
 - Use **Dice Coefficient / IoU** as evaluation metrics  
 - Try advanced models (Attention U-Net, DeepLabV3+)  
 - Deploy with **Flask API** or convert to **TensorFlow Lite**  
-
----
-
-## 📜 License  
-This project is licensed under the [MIT License](LICENSE).  
 
 ---
 
